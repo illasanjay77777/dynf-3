@@ -1,0 +1,111 @@
+/* SurveyForm.css */
+
+body {
+  background: linear-gradient(to right, #ff9a9e, #fecfef);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.survey-form {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.survey-form h2 {
+  color: #ff7a18;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ff7a18;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input.error-input,
+.form-group select.error-input,
+.form-group textarea.error-input {
+  border-color: red;
+}
+
+.form-group .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background: linear-gradient(to right, #ff7a18, #ffb347);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(to right, #ff7a18, #ff6f00);
+}
+
+button[type="submit"]:disabled {
+  background: #ffcc99;
+  cursor: not-allowed;
+}
+
+.submission-summary {
+  text-align: center;
+}
+
+.submission-summary h2 {
+  color: #ff7a18;
+}
+
+.submission-summary p {
+  font-size: 16px;
+}
+
+.submission-summary strong {
+  color: #ff7a18;
+}
+
+button[type="button"] {
+  background: #ff7a18;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 20px;
+}
+
+button[type="button"]:hover {
+  background: #ff6f00;
+}
